@@ -24,7 +24,7 @@ export default function Home() {
       }
 
       setResult(data.result);
-      setLastInput(prompt);
+      setLastInput(promptInput);
       setPromptInput("");
     } catch(error) {
       // Consider implementing your own error handling logic here
